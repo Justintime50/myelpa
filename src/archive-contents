@@ -1,4 +1,5 @@
 (1
+ (bind-key . [(20210210 1609) nil "A simple way to manage personal keybindings" tar])
  (dash . [(20210826 1149) ((emacs (24))) "A modern list library for Emacs" tar])
  (epl . [(20180205 2049) ((cl-lib (0 3))) "Emacs Package Library" tar])
  (flycheck . [(20210825 1804) ((dash (2 12 1)) (pkg-info (0 4)) (let-alist (1 0 4)) (seq (1 11)) (emacs (24 3))) "Onfly syntax checking" tar])
@@ -7,4 +8,5 @@
  (pkg-info . [(20150517 1143) ((epl (0 8))) "Information about packages" tar])
  (py-isort . [(20160925 1018) nil "Use isort to sort the imports in a Python buffer" tar])
  (transpose-frame . [(20200307 2119) nil "Transpose windows arrangement in a frame" tar])
+ (use-package . [(20210207 1926) ((emacs (24 3)) (bind-key (2 4))) "A configuration macro for simplifying your .emacs" tar])
 )
