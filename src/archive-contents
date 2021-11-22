@@ -7,6 +7,8 @@
  (package-lint . [(20211107 1614) ((cl-lib (0 5)) (emacs (24 1)) (let-alist (1 0 6))) "A linting library for elisp package authors" tar])
  (pkg-info . [(20150517 1143) ((epl (0 8))) "Information about packages" tar])
  (py-isort . [(20160925 1018) nil "Use isort to sort the imports in a Python buffer" tar])
+ (reformatter . [(20210831 1405) ((emacs (24 3))) "Define commands which run reformatters on the current buffer" tar])
+ (shfmt . [(20210803 222) ((emacs (24)) (reformatter (0 3))) "Reformat shell scripts using shfmt" tar])
  (transpose-frame . [(20200307 2119) nil "Transpose windows arrangement in a frame" tar])
  (use-package . [(20210207 1926) ((emacs (24 3)) (bind-key (2 4))) "A configuration macro for simplifying your .emacs" tar])
 )
