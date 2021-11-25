@@ -1,10 +1,12 @@
 (1
+ (auto-package-update . [(20211108 2025) ((emacs (24 4)) (dash (2 1 0))) "Automatically update Emacs packages." tar])
  (bind-key . [(20210210 1609) nil "A simple way to manage personal keybindings" tar])
  (dash . [(20210826 1149) ((emacs (24))) "A modern list library for Emacs" tar])
  (epl . [(20180205 2049) ((cl-lib (0 3))) "Emacs Package Library" tar])
  (flycheck . [(20210825 1804) ((dash (2 12 1)) (pkg-info (0 4)) (let-alist (1 0 4)) (seq (1 11)) (emacs (24 3))) "Onfly syntax checking" tar])
+ (github-dark-vscode-theme . [(20211122 1800) ((emacs (24 1))) "The GitHub Dark Theme from Visual Studio Code" tar])
  (ivy . [(20210930 1450) ((emacs (24 5))) "Incremental Vertical completYon" tar])
- (package-lint . [(20211107 1614) ((cl-lib (0 5)) (emacs (24 1)) (let-alist (1 0 6))) "A linting library for elisp package authors" tar])
+ (package-lint . [(20211122 1152) ((cl-lib (0 5)) (emacs (24 1)) (let-alist (1 0 6))) "A linting library for elisp package authors" tar])
  (pkg-info . [(20150517 1143) ((epl (0 8))) "Information about packages" tar])
  (py-isort . [(20160925 1018) nil "Use isort to sort the imports in a Python buffer" tar])
  (reformatter . [(20210831 1405) ((emacs (24 3))) "Define commands which run reformatters on the current buffer" tar])
