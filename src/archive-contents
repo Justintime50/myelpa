@@ -7,6 +7,7 @@
  (github-dark-vscode-theme . [(20220313 2033) ((emacs (24 1))) "The GitHub Dark Theme from Visual Studio Code" tar])
  (go-mode . [(20220114 2239) ((emacs (26 1))) "Major mode for the Go programming language" tar])
  (ivy . [(20220529 1130) ((emacs (24 5))) "Incremental Vertical completYon" tar])
+ (php-mode . [(20220703 1211) ((emacs (25 2))) "Major mode for editing PHP code" tar])
  (pkg-info . [(20150517 1143) ((epl (0 8))) "Information about packages" tar])
  (py-isort . [(20160925 1018) nil "Use isort to sort the imports in a Python buffer" tar])
  (reformatter . [(20220627 825) ((emacs (24 3))) "Define commands which run reformatters on the current buffer" tar])
