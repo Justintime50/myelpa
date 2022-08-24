@@ -8,15 +8,28 @@ Here is the collection of `*.el` package files (including dependencies) combined
 
 ### Use Mirror
 
-To gain access to this mirror, simply add the following to your `~/.emacs` file:
+To gain access to this mirror, add the mirror reference to your `package-archives` in your `~/.emacs` file, a basic config may look like this:
 
 ```lisp
-(add-to-list 'package-archives ("myelpa" . "https://raw.githubusercontent.com/Justintime50/myelpa/main/src/"))
+(require 'package)
+
+(setq package-archives '(("melpa" . "https://melpa.org/packages/")
+                         ("myelpa" . "https://raw.githubusercontent.com/Justintime50/myelpa/main/src/")))
+
+(package-initialize)
 ```
 
-### Create Mirror
+Then run the following to refresh your package list with the packages from the mirror:
 
-Use the following tool to craft the mirror locally (must be done from an Emacs instance that can install packages - as is the case on my personal machine.) https://github.com/redguardtoo/elpa-mirror
+```lisp
+M-x package-refresh-contents
+```
+
+### Create and Update the Mirror
+
+Use the following tool to craft the mirror locally (must be done from an Emacs instance that can install packages - as is the case on my personal machine.)
+
+Tool GitHub: <https://github.com/redguardtoo/elpa-mirror>
 
 ```bash
 mkdir -p ~/myelpa && emacs --batch -l ~/.emacs -l ~/.emacs.d/elpa-mirror.el --eval='(setq elpamr-default-output-directory "~/myelpa")' --eval='(elpamr-create-mirror-for-installed)'
